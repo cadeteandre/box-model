@@ -1,0 +1,94 @@
+h1 {
+    border: 4px groove red;
+    margin: 5px auto;
+    max-width: 430px;
+    padding: 3px 10px;
+}
+
+h2 {
+    border: 4px dotted rgb(12, 187, 226);
+    margin: 5px auto;
+    max-width: 330px;
+    padding: 3px 10px;
+}
+
+h3 {
+    text-align: center;
+    border: 4px outset rgb(52, 197, 4);
+    margin: 5px auto;
+    max-width: 130px;
+    padding: 3px 10px;
+}
+
+p:nth-of-type(1), p:nth-of-type(2) {
+    color: red;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5px auto;
+    max-width: 400px;
+    padding: 3px 10px;
+}
+
+p:hover {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 130%;
+    color: #8A2BE2;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+p:nth-of-type(3) {
+    background-color: rgb(247, 180, 9);
+    color: rgb(111, 80, 215);
+    border: 1px solid rgba(35, 151, 40, 0.637);
+    margin: 5px auto;
+    max-width: 300px;
+    padding: 3px 10px;
+}
+
+p:nth-of-type(4) {
+    color: rgb(243, 184, 5);
+    border: 1px solid rgba(35, 151, 40, 0.637);
+    margin: 5px auto;
+    max-width: 200px;
+    padding: 3px 10px;
+}
+
+p:nth-of-type(5) {
+    background-color: rgb(0, 0, 0);
+    color: rgba(7, 250, 63, 0.941);
+    border: 2px ridge rgba(35, 151, 40, 0.637);
+    margin: 5px auto;
+    max-width: 200px;
+    padding: 3px 10px;
+}
+
+p:nth-of-type(6) {
+    background-color: rgba(7, 250, 63, 0.941);;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(35, 151, 40, 0.637);
+    margin: 5px auto;
+    max-width: 200px;
+    padding: 3px 10px;
+}
+
+ol {
+    background-color: black;
+    color: hotpink;
+    border: 5px dashed hotpink;
+    max-width: 200px;
+    margin: 5px auto;
+    letter-spacing: 2px;
+}
+
+ul {
+    background-color: hotpink;
+    color: black;
+    border: 5px dashed rgb(0, 0, 0);
+    max-width: 200px;
+    margin: 5px auto;
+    letter-spacing: 2px;
+}

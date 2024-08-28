@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+header > img {
+    width: 1440px;
+    height: 577.09px;
+}
+
+img {
+    width: 360px;
+    height: 202.31px;
+    margin: 30px 30px;
+}
+
+main, footer{
+    text-align: center;
+}
+
+section > p {
+    margin: 35px 75px;
+}
+
+#tour-dates > p {
+    text-align: left;
+}
